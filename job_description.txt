@@ -1,0 +1,80 @@
+[data scientist]
+We are looking for a Data Scientist with experience in machine learning, statistical modeling, Python, data visualization tools, and working with large datasets. Experience with pandas, NumPy, scikit-learn and SQL required.
+
+[software engineer]
+We are hiring a Software Engineer proficient in Python, Java, object-oriented programming, REST APIs, Git, and Agile methodologies. Knowledge of cloud platforms like AWS or Azure is desirable.
+
+[web developer]
+Looking for a Web Developer skilled in HTML, CSS, JavaScript, React.js, Node.js, and REST APIs. Familiarity with responsive design and UI/UX principles is a must.
+
+[machine learning engineer]
+Seeking a Machine Learning Engineer with expertise in supervised and unsupervised learning, deep learning, TensorFlow or PyTorch, data preprocessing, and model deployment. Experience in cloud services like AWS SageMaker or Google AI Platform is a plus.
+
+[android developer]
+We are looking for an Android Developer with strong knowledge of Kotlin, Java, Android SDK, and experience with RESTful APIs and Git. Knowledge of Firebase and mobile UI/UX best practices is preferred.
+
+[data analyst]
+Hiring a Data Analyst with skills in SQL, Excel, data visualization (Power BI, Tableau), Python or R, and business intelligence reporting. Must be comfortable working with large data sets.
+
+[ui/ux designer]
+Looking for a UI/UX Designer with experience in Figma, Adobe XD, Sketch, wireframing, and user-centered design principles. Strong portfolio in app/web design required.
+
+[network engineer]
+Seeking a Network Engineer with strong knowledge of networking protocols, firewalls, routers, switches, and security best practices. Cisco certification (CCNA/CCNP) is a bonus.
+
+[devops engineer]
+We're hiring a DevOps Engineer with hands-on experience in CI/CD pipelines, Jenkins, Docker, Kubernetes, cloud infrastructure (AWS, Azure, GCP), and infrastructure-as-code tools like Terraform or Ansible.
+
+[cybersecurity analyst]
+We are looking for a Cybersecurity Analyst with knowledge in threat detection, risk assessment, SIEM tools, network security, ethical hacking, and vulnerability management. Certifications like CEH or CISSP are a plus.
+
+[project manager]
+We are hiring a Project Manager experienced in Agile and Scrum methodologies, project scheduling, resource planning, and risk management. PMP or Scrum Master certification preferred.
+
+[graphic designer]
+Looking for a Graphic Designer skilled in Adobe Creative Suite (Photoshop, Illustrator, InDesign), branding, digital graphics, and visual storytelling.
+
+[content writer]
+Seeking a Content Writer with excellent writing, editing, and proofreading skills. Experience in SEO writing, content strategy, and blog/article creation is desirable.
+
+[marketing manager]
+Hiring a Marketing Manager to lead digital campaigns, analyze marketing metrics, manage content strategies, and oversee branding initiatives. Google Ads and analytics experience is required.
+
+[accountant]
+We are looking for an Accountant experienced in financial reporting, ledger maintenance, tax compliance, and accounting software such as Tally or QuickBooks.
+
+[human resources specialist]
+Looking for an HR Specialist with experience in recruitment, employee onboarding, payroll, HR compliance, and employee relations.
+
+[customer support representative]
+Hiring a Customer Support Representative with excellent communication skills, problem-solving abilities, and experience using CRM software.
+
+[mechanical engineer]
+We are hiring a Mechanical Engineer experienced in CAD software, thermodynamics, material science, and mechanical systems design.
+
+[electrical engineer]
+Looking for an Electrical Engineer with strong knowledge of circuit design, PLC programming, power systems, and AutoCAD Electrical.
+
+[civil engineer]
+We need a Civil Engineer skilled in structural analysis, site planning, AutoCAD, and construction management. Knowledge of surveying is a plus.
+
+[ai engineer]
+Seeking an AI Engineer with experience in natural language processing, neural networks, computer vision, and reinforcement learning. Must be proficient in Python and frameworks like TensorFlow or PyTorch.
+
+[database administrator]
+We are hiring a Database Administrator with expertise in MySQL, PostgreSQL, database tuning, replication, and backup strategies.
+
+[cloud engineer]
+Looking for a Cloud Engineer experienced in AWS, Azure, or GCP infrastructure, cloud migration, security, and automation tools.
+
+[frontend developer]
+Hiring a Frontend Developer with strong skills in HTML, CSS, JavaScript, TypeScript, React, and frontend performance optimization.
+
+[backend developer]
+We are looking for a Backend Developer experienced in Node.js, Django, Ruby on Rails, REST APIs, and database design.
+
+[full stack developer]
+Seeking a Full Stack Developer with knowledge of both frontend and backend technologies, including React, Node.js, MongoDB, and REST APIs.
+
+[qa tester]
+Hiring a QA Tester to develop and execute test plans, debug issues, and ensure product quality. Experience in manual and automated testing tools is required.
