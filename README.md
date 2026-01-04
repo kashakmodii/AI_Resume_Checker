@@ -5,7 +5,7 @@ How It Works
 
 Select job title (from the ones available in job_description.txt)
 
-Upload your resume (PDF format)
+Upload your resume (PDF/Docs format)
 
 
 The system:
