@@ -1,29 +1,29 @@
-# 🎯 AI Resume Checker - Streamlit Edition
+#  AI Resume Checker - Streamlit Edition
 
 An intelligent AI-powered resume analysis tool that evaluates your resume against job descriptions using **Google Gemini API**. Get detailed insights on match score, ATS compatibility, skill gaps, and actionable suggestions to improve your resume.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📄 **Resume Upload**: Support for PDF and DOCX formats
-- 💼 **Job Description Input**: Choose from 25+ predefined jobs or paste custom descriptions
-- 🤖 **AI Analysis**: Google Gemini API for intelligent resume evaluation
-- 📊 **Comprehensive Scoring**:
+-  **Resume Upload**: Support for PDF and DOCX formats
+-  **Job Description Input**: Choose from 25+ predefined jobs or paste custom descriptions
+-  **AI Analysis**: Google Gemini API for intelligent resume evaluation
+-  **Comprehensive Scoring**:
   - Resume Match Score (0-100%)
   - ATS Compatibility Score (0-100%)
-- 🔍 **Detailed Insights**:
+-  **Detailed Insights**:
   - Key Strengths
   - Areas for Improvement
   - Missing Critical Skills
   - Keyword Match Analysis
   - Actionable Suggestions
-- 📥 **Report Export**: Download analysis as Text or PDF
-- 🎨 **Clean UI**: Professional Streamlit interface with real-time feedback
+-  **Report Export**: Download analysis as Text or PDF
+-  **Clean UI**: Professional Streamlit interface with real-time feedback
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -36,7 +36,7 @@ An intelligent AI-powered resume analysis tool that evaluates your resume agains
 
 ---
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 AI_Resume_Checker/
@@ -53,7 +53,7 @@ AI_Resume_Checker/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -63,7 +63,7 @@ AI_Resume_Checker/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/AI_Resume_Checker.git
+   git clone https://github.com/kashakmodii/AI_Resume_Checker.git
    cd AI_Resume_Checker
    ```
 
@@ -92,7 +92,7 @@ AI_Resume_Checker/
 
 ---
 
-## 📖 How to Use
+##  How to Use
 
 ### Step 1: Upload Resume
 - Click **"Choose a PDF or DOCX file"** in the sidebar
@@ -105,7 +105,7 @@ AI_Resume_Checker/
 - View the full job description if needed
 
 ### Step 3: Analyze
-- Click the **"🔍 Analyze Resume"** button
+- Click the **" Analyze Resume"** button
 - Wait for Gemini AI to process (5-10 seconds)
 
 ### Step 4: Review Results
@@ -123,7 +123,7 @@ AI_Resume_Checker/
 
 ---
 
-## 🔑 Predefined Job Roles
+##  Predefined Job Roles
 
 The tool includes job descriptions for 25+ positions:
 
@@ -157,7 +157,7 @@ The tool includes job descriptions for 25+ positions:
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 ### Using Environment Variables (.env)
 ```
@@ -172,7 +172,7 @@ GEMINI_API_KEY = "your_api_key_here"
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 streamlit==1.28.1
@@ -186,7 +186,7 @@ fpdf2==2.7.0
 
 ---
 
-## ⚡ Performance Tips
+##  Performance Tips
 
 - **Keep resumes under 5 pages** for faster processing
 - **Use specific job descriptions** for better analysis
@@ -195,7 +195,7 @@ fpdf2==2.7.0
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: "GEMINI_API_KEY not found"
 **Solution**: 
@@ -217,7 +217,7 @@ fpdf2==2.7.0
 
 ---
 
-## 🔐 Security & Privacy
+##  Security & Privacy
 
 - **Local Processing**: API key stored locally in `.env`
 - **No Data Storage**: Analysis results are not saved on servers
@@ -226,7 +226,7 @@ fpdf2==2.7.0
 
 ---
 
-## 📈 Example Output
+##  Example Output
 
 ```
 MATCH SCORES
@@ -261,7 +261,7 @@ ACTIONABLE SUGGESTIONS
 
 ---
 
-## 📄 Report Export
+##  Report Export
 
 Generate professional reports in two formats:
 
@@ -277,7 +277,7 @@ Generate professional reports in two formats:
 
 ---
 
-## 🎓 How Gemini AI Analyzes
+##  How Gemini AI Analyzes
 
 The AI:
 1. Parses resume content for skills, experience, and education
@@ -289,7 +289,7 @@ The AI:
 
 ---
 
-## 💡 Tips for Better Results
+##  Tips for Better Results
 
 1. **Use keyword-rich resume**: Include technical terms from job description
 2. **Quantify achievements**: Use numbers and metrics
@@ -300,7 +300,7 @@ The AI:
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy on Streamlit Cloud
 1. Push code to GitHub
@@ -317,7 +317,7 @@ streamlit run app.py
 
 ---
 
-## 📞 Support
+##  Support
 
 For issues or questions:
 1. Check the Troubleshooting section
@@ -327,13 +327,13 @@ For issues or questions:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the terms in the LICENSE file.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
