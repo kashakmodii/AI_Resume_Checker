@@ -1,0 +1,124 @@
+=== JOB 1 ===
+Job Title: Machine Learning Engineer
+Skills: Python, Machine Learning, Deep Learning, TensorFlow, PyTorch, Scikit-learn, Data Preprocessing, Feature Engineering, Model Deployment, Git
+Responsibilities: Build ML models, preprocess data, optimize algorithms, deploy models into production systems.
+
+=== JOB 2 ===
+Job Title: Data Scientist
+Skills: Python, R, Statistics, Machine Learning, Pandas, NumPy, Data Visualization, SQL, Scikit-learn
+Responsibilities: Analyze datasets, build predictive models, perform statistical analysis, present insights.
+
+=== JOB 3 ===
+Job Title: NLP Engineer
+Skills: Python, NLP, Transformers, BERT, NLTK, SpaCy, HuggingFace, PyTorch
+Responsibilities: Develop NLP models, sentiment analysis systems, chatbots, and text classification pipelines.
+
+=== JOB 4 ===
+Job Title: Data Analyst
+Skills: SQL, Excel, Python, Power BI, Tableau, Data Cleaning, Statistics
+Responsibilities: Analyze business data, build dashboards, generate reports, identify patterns and trends.
+
+=== JOB 5 ===
+Job Title: AI Engineer
+Skills: Python, Deep Learning, Computer Vision, NLP, TensorFlow, PyTorch, API Development
+Responsibilities: Build AI applications, deploy models, integrate AI with software systems.
+
+=== JOB 6 ===
+Job Title: Computer Vision Engineer
+Skills: Python, OpenCV, Deep Learning, CNN, TensorFlow, PyTorch, Image Processing
+Responsibilities: Develop image recognition systems, object detection models, and vision-based AI solutions.
+
+=== JOB 7 ===
+Job Title: MLOps Engineer
+Skills: Python, Docker, Kubernetes, CI/CD, MLflow, AWS, Model Deployment
+Responsibilities: Deploy ML pipelines, monitor model performance, automate training workflows.
+
+=== JOB 8 ===
+Job Title: AI Researcher
+Skills: Python, Deep Learning, Research Methods, PyTorch, TensorFlow, Mathematical Modeling
+Responsibilities: Conduct AI research, develop new algorithms, publish research papers.
+
+=== JOB 9 ===
+Job Title: Business Intelligence Analyst
+Skills: SQL, Power BI, Tableau, Excel, Data Visualization
+Responsibilities: Build business dashboards, analyze company metrics, support strategic decisions.
+
+=== JOB 10 ===
+Job Title: Backend Python Developer
+Skills: Python, Django, Flask, REST APIs, SQL, Git
+Responsibilities: Build backend systems, develop APIs, integrate databases.
+
+=== JOB 11 ===
+Job Title: Data Engineer
+Skills: Python, SQL, Spark, Hadoop, ETL, Data Warehousing
+Responsibilities: Build data pipelines, manage large datasets, ensure data reliability.
+
+=== JOB 12 ===
+Job Title: Deep Learning Engineer
+Skills: Python, Deep Learning, TensorFlow, PyTorch, CNN, RNN
+Responsibilities: Build deep neural networks, optimize models, develop AI solutions.
+
+=== JOB 13 ===
+Job Title: AI Product Manager
+Skills: Product Management, AI Knowledge, Agile, Data Analysis
+Responsibilities: Manage AI product lifecycle, coordinate between engineering and business teams.
+
+=== JOB 14 ===
+Job Title: Statistician
+Skills: Statistics, R, Python, Data Analysis, Hypothesis Testing
+Responsibilities: Perform statistical modeling and data analysis.
+
+=== JOB 15 ===
+Job Title: Robotics Engineer
+Skills: Python, Robotics, Computer Vision, ROS, Control Systems
+Responsibilities: Design and develop robotic systems and automation solutions.
+
+=== JOB 16 ===
+Job Title: Big Data Engineer
+Skills: Hadoop, Spark, Scala, Python, Data Pipelines
+Responsibilities: Process and manage large-scale datasets.
+
+=== JOB 17 ===
+Job Title: Software Engineer
+Skills: Python, Java, C++, Data Structures, Algorithms, Git
+Responsibilities: Design and develop scalable software applications.
+
+=== JOB 18 ===
+Job Title: AI Consultant
+Skills: AI Strategy, Machine Learning, Business Analysis
+Responsibilities: Provide AI solutions and guidance to businesses.
+
+=== JOB 19 ===
+Job Title: Cloud AI Engineer
+Skills: AWS, Azure, GCP, Machine Learning, Docker
+Responsibilities: Deploy AI models on cloud infrastructure.
+
+=== JOB 20 ===
+Job Title: Research Data Scientist
+Skills: Python, Statistics, Machine Learning, Data Analysis
+Responsibilities: Conduct research using data science techniques.
+
+=== JOB 21 ===
+Job Title: NLP Data Scientist
+Skills: Python, NLP, Transformers, HuggingFace, Deep Learning
+Responsibilities: Build advanced language models and text analytics systems.
+
+=== JOB 22 ===
+Job Title: Computer Vision Researcher
+Skills: Python, Deep Learning, OpenCV, Image Processing
+Responsibilities: Develop cutting-edge vision algorithms.
+
+=== JOB 23 ===
+Job Title: Quantitative Analyst
+Skills: Python, Statistics, Finance, Machine Learning
+Responsibilities: Build predictive financial models and analyze market trends.
+
+=== JOB 24 ===
+Job Title: AI Software Developer
+Skills: Python, Machine Learning, APIs, Software Engineering
+Responsibilities: Develop software applications powered by AI models.
+
+=== JOB 25 ===
+Job Title: Data Science Intern
+Skills: Python, Data Analysis, Pandas, NumPy, Visualization
+Responsibilities: Assist in data analysis, model development, and reporting.
