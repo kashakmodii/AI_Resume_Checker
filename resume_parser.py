@@ -7,6 +7,7 @@ import PyPDF2
 from docx import Document
 import streamlit as st
 import os
+from pathlib import Path
 
 
 def extract_text_from_pdf(file_input):
@@ -109,10 +110,23 @@ def load_job_descriptions(file_path):
     job_descriptions = {}
 
     try:
-        if not os.path.exists(file_path):
+        # Handle relative and absolute paths
+        # Try to get absolute path relative to the script location
+        if not os.path.isabs(file_path):
+            # Try in current directory first (for Streamlit compatibility)
+            if os.path.exists(file_path):
+                actual_path = file_path
+            else:
+                # Try relative to the resume_parser.py module location
+                script_dir = Path(__file__).parent
+                actual_path = script_dir / file_path
+        else:
+            actual_path = file_path
+        
+        if not os.path.exists(actual_path):
             return job_descriptions
             
-        with open(file_path, 'r', encoding='utf-8') as file:
+        with open(actual_path, 'r', encoding='utf-8') as file:
             content = file.read()
             lines = content.split('\n')
             
