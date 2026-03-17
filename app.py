@@ -329,6 +329,12 @@ def render_sidebar():
         
         job_titles = sorted(st.session_state.job_descriptions.keys()) if st.session_state.job_descriptions else []
         
+        # Show status
+        if job_titles:
+            st.success(f"✅ Found {len(job_titles)} positions")
+        else:
+            st.warning("⚠️ Templates not loaded")
+        
         source = st.radio(
             "Source:",
             ["Template Library", "Custom Entry"],
@@ -337,7 +343,6 @@ def render_sidebar():
         
         if source == "Template Library":
             if job_titles:
-                st.success(f"✅ Found {len(job_titles)} positions")
                 selected_job = st.selectbox(
                     "Position:",
                     job_titles,
@@ -355,7 +360,7 @@ def render_sidebar():
                         key="job_preview"
                     )
             else:
-                st.warning("No templates loaded. Please enter custom description.")
+                st.info("💡 No templates available. Please use Custom Entry below.")
                 st.session_state.selected_job_title = st.text_input("Title:", key="custom_title_1")
                 st.session_state.job_description = st.text_area("Description:", height=150, key="custom_desc_1")
         else:

@@ -100,6 +100,7 @@ def extract_text_from_upload(uploaded_file):
 def load_job_descriptions(file_path):
     """
     Load job descriptions from a text file with format: Job Title: description
+    Robust path handling for local development and Streamlit deployment
     
     Args:
         file_path: Path to the job descriptions file
@@ -110,20 +111,30 @@ def load_job_descriptions(file_path):
     job_descriptions = {}
 
     try:
-        # Handle relative and absolute paths
-        # Try to get absolute path relative to the script location
-        if not os.path.isabs(file_path):
-            # Try in current directory first (for Streamlit compatibility)
-            if os.path.exists(file_path):
-                actual_path = file_path
-            else:
-                # Try relative to the resume_parser.py module location
-                script_dir = Path(__file__).parent
-                actual_path = script_dir / file_path
-        else:
-            actual_path = file_path
+        # Try multiple path resolution strategies
+        possible_paths = [
+            file_path,  # Direct path as given
+            Path(file_path),  # Using pathlib
+            Path(__file__).parent / file_path,  # Relative to this module
+        ]
         
-        if not os.path.exists(actual_path):
+        # Add current working directory variants
+        cwd = Path.cwd()
+        possible_paths.extend([
+            cwd / file_path,
+            cwd / "job_description.txt",  # Default filename
+        ])
+        
+        # Try to find the file
+        actual_path = None
+        for p in possible_paths:
+            if isinstance(p, str):
+                p = Path(p)
+            if p.exists():
+                actual_path = p
+                break
+        
+        if actual_path is None:
             return job_descriptions
             
         with open(actual_path, 'r', encoding='utf-8') as file:
@@ -136,7 +147,7 @@ def load_job_descriptions(file_path):
             for line in lines:
                 line_stripped = line.strip()
                 
-                # Check if this line is a job title (ends with colon and no extra description on same line)
+                # Check if this line is a job title (ends with colon)
                 if line_stripped and ':' in line_stripped and not line_stripped.startswith('#'):
                     # Save previous job if exists
                     if current_title and current_desc:
@@ -154,10 +165,6 @@ def load_job_descriptions(file_path):
                 elif line_stripped and current_title:
                     # Add to current description
                     current_desc.append(line_stripped)
-                elif not line_stripped and current_title and current_desc:
-                    # Empty line might separate jobs or be within description
-                    # We'll treat multiple empty lines as job separator
-                    pass
             
             # Don't forget the last job
             if current_title and current_desc:
@@ -165,7 +172,5 @@ def load_job_descriptions(file_path):
 
         return job_descriptions
     
-    except FileNotFoundError:
-        return {}
     except Exception as e:
         return {}
