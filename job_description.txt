@@ -1,124 +1,80 @@
-=== JOB 1 ===
-Job Title: Machine Learning Engineer
-Skills: Python, Machine Learning, Deep Learning, TensorFlow, PyTorch, Scikit-learn, Data Preprocessing, Feature Engineering, Model Deployment, Git
-Responsibilities: Build ML models, preprocess data, optimize algorithms, deploy models into production systems.
+Data Scientist:
+Responsible for collecting, analyzing, and interpreting large datasets to generate actionable insights. Uses statistical techniques, machine learning models, and data visualization tools to support decision-making and business strategies.
 
-=== JOB 2 ===
-Job Title: Data Scientist
-Skills: Python, R, Statistics, Machine Learning, Pandas, NumPy, Data Visualization, SQL, Scikit-learn
-Responsibilities: Analyze datasets, build predictive models, perform statistical analysis, present insights.
+Software Engineer:
+Designs, develops, tests, and maintains software applications. Works with programming languages, frameworks, and development tools to build scalable and efficient systems.
 
-=== JOB 3 ===
-Job Title: NLP Engineer
-Skills: Python, NLP, Transformers, BERT, NLTK, SpaCy, HuggingFace, PyTorch
-Responsibilities: Develop NLP models, sentiment analysis systems, chatbots, and text classification pipelines.
+Web Developer:
+Builds and maintains websites and web applications. Handles frontend and backend development, ensuring responsive design, performance optimization, and cross-browser compatibility.
 
-=== JOB 4 ===
-Job Title: Data Analyst
-Skills: SQL, Excel, Python, Power BI, Tableau, Data Cleaning, Statistics
-Responsibilities: Analyze business data, build dashboards, generate reports, identify patterns and trends.
+Machine Learning Engineer:
+Develops and deploys machine learning models into production. Works on data pipelines, model optimization, and scalable AI solutions.
 
-=== JOB 5 ===
-Job Title: AI Engineer
-Skills: Python, Deep Learning, Computer Vision, NLP, TensorFlow, PyTorch, API Development
-Responsibilities: Build AI applications, deploy models, integrate AI with software systems.
+Android Developer:
+Designs and develops mobile applications for Android platforms. Ensures performance, usability, and integration with backend services.
 
-=== JOB 6 ===
-Job Title: Computer Vision Engineer
-Skills: Python, OpenCV, Deep Learning, CNN, TensorFlow, PyTorch, Image Processing
-Responsibilities: Develop image recognition systems, object detection models, and vision-based AI solutions.
+Data Analyst:
+Collects, processes, and analyzes data to identify trends and patterns. Creates reports and dashboards to assist business decisions.
 
-=== JOB 7 ===
-Job Title: MLOps Engineer
-Skills: Python, Docker, Kubernetes, CI/CD, MLflow, AWS, Model Deployment
-Responsibilities: Deploy ML pipelines, monitor model performance, automate training workflows.
+UI/UX Designer:
+Designs user-friendly interfaces and enhances user experience. Conducts research, wireframing, prototyping, and usability testing.
 
-=== JOB 8 ===
-Job Title: AI Researcher
-Skills: Python, Deep Learning, Research Methods, PyTorch, TensorFlow, Mathematical Modeling
-Responsibilities: Conduct AI research, develop new algorithms, publish research papers.
+Network Engineer:
+Designs, implements, and manages computer networks. Ensures network security, performance, and reliability.
 
-=== JOB 9 ===
-Job Title: Business Intelligence Analyst
-Skills: SQL, Power BI, Tableau, Excel, Data Visualization
-Responsibilities: Build business dashboards, analyze company metrics, support strategic decisions.
+DevOps Engineer:
+Bridges development and operations by automating workflows, managing CI/CD pipelines, and ensuring system scalability and reliability.
 
-=== JOB 10 ===
-Job Title: Backend Python Developer
-Skills: Python, Django, Flask, REST APIs, SQL, Git
-Responsibilities: Build backend systems, develop APIs, integrate databases.
+Cybersecurity Analyst:
+Protects systems and networks from cyber threats. Monitors security incidents, conducts vulnerability assessments, and implements security measures.
 
-=== JOB 11 ===
-Job Title: Data Engineer
-Skills: Python, SQL, Spark, Hadoop, ETL, Data Warehousing
-Responsibilities: Build data pipelines, manage large datasets, ensure data reliability.
+Project Manager:
+Plans, executes, and manages projects within scope, budget, and timeline. Coordinates teams and ensures successful project delivery.
 
-=== JOB 12 ===
-Job Title: Deep Learning Engineer
-Skills: Python, Deep Learning, TensorFlow, PyTorch, CNN, RNN
-Responsibilities: Build deep neural networks, optimize models, develop AI solutions.
+Graphic Designer:
+Creates visual content for branding, marketing, and digital platforms. Uses design tools to produce engaging graphics.
 
-=== JOB 13 ===
-Job Title: AI Product Manager
-Skills: Product Management, AI Knowledge, Agile, Data Analysis
-Responsibilities: Manage AI product lifecycle, coordinate between engineering and business teams.
+Content Writer:
+Develops written content for websites, blogs, and marketing materials. Focuses on clarity, engagement, and SEO optimization.
 
-=== JOB 14 ===
-Job Title: Statistician
-Skills: Statistics, R, Python, Data Analysis, Hypothesis Testing
-Responsibilities: Perform statistical modeling and data analysis.
+Marketing Manager:
+Plans and executes marketing strategies to promote products or services. Analyzes market trends and manages campaigns.
 
-=== JOB 15 ===
-Job Title: Robotics Engineer
-Skills: Python, Robotics, Computer Vision, ROS, Control Systems
-Responsibilities: Design and develop robotic systems and automation solutions.
+Accountant:
+Manages financial records, prepares reports, and ensures compliance with regulations. Handles budgeting, auditing, and taxation.
 
-=== JOB 16 ===
-Job Title: Big Data Engineer
-Skills: Hadoop, Spark, Scala, Python, Data Pipelines
-Responsibilities: Process and manage large-scale datasets.
+Human Resources Specialist:
+Manages recruitment, employee relations, and organizational policies. Supports workforce development and performance management.
 
-=== JOB 17 ===
-Job Title: Software Engineer
-Skills: Python, Java, C++, Data Structures, Algorithms, Git
-Responsibilities: Design and develop scalable software applications.
+Customer Support Representative:
+Assists customers by resolving queries and issues. Ensures customer satisfaction through effective communication.
 
-=== JOB 18 ===
-Job Title: AI Consultant
-Skills: AI Strategy, Machine Learning, Business Analysis
-Responsibilities: Provide AI solutions and guidance to businesses.
+Mechanical Engineer:
+Designs, develops, and tests mechanical systems and devices. Works on manufacturing processes and product development.
 
-=== JOB 19 ===
-Job Title: Cloud AI Engineer
-Skills: AWS, Azure, GCP, Machine Learning, Docker
-Responsibilities: Deploy AI models on cloud infrastructure.
+Electrical Engineer:
+Designs and develops electrical systems, circuits, and equipment. Ensures efficiency, safety, and reliability.
 
-=== JOB 20 ===
-Job Title: Research Data Scientist
-Skills: Python, Statistics, Machine Learning, Data Analysis
-Responsibilities: Conduct research using data science techniques.
+Civil Engineer:
+Plans, designs, and oversees construction projects such as roads, bridges, and buildings. Ensures compliance with safety standards.
 
-=== JOB 21 ===
-Job Title: NLP Data Scientist
-Skills: Python, NLP, Transformers, HuggingFace, Deep Learning
-Responsibilities: Build advanced language models and text analytics systems.
+AI Engineer:
+Develops artificial intelligence systems and applications. Works with machine learning, deep learning, and automation technologies.
 
-=== JOB 22 ===
-Job Title: Computer Vision Researcher
-Skills: Python, Deep Learning, OpenCV, Image Processing
-Responsibilities: Develop cutting-edge vision algorithms.
+Database Administrator:
+Manages and maintains databases, ensuring data security, integrity, and performance optimization.
 
-=== JOB 23 ===
-Job Title: Quantitative Analyst
-Skills: Python, Statistics, Finance, Machine Learning
-Responsibilities: Build predictive financial models and analyze market trends.
+Cloud Engineer:
+Designs and manages cloud infrastructure and services. Works with cloud platforms to ensure scalability and reliability.
 
-=== JOB 24 ===
-Job Title: AI Software Developer
-Skills: Python, Machine Learning, APIs, Software Engineering
-Responsibilities: Develop software applications powered by AI models.
+Frontend Developer:
+Develops the visual and interactive aspects of web applications using HTML, CSS, and JavaScript frameworks.
 
-=== JOB 25 ===
-Job Title: Data Science Intern
-Skills: Python, Data Analysis, Pandas, NumPy, Visualization
-Responsibilities: Assist in data analysis, model development, and reporting.
+Backend Developer:
+Builds server-side logic, APIs, and database interactions. Ensures application performance and security.
+
+Full Stack Developer:
+Handles both frontend and backend development. Builds complete web applications and integrates all components.
+
+QA Tester:
+Tests software applications to identify bugs and ensure quality standards. Performs manual and automated testing.
