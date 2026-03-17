@@ -6,6 +6,7 @@ Handles extraction of text from PDF and DOCX resume files.
 import PyPDF2
 from docx import Document
 import streamlit as st
+import os
 
 
 def extract_text_from_pdf(file_input):
@@ -97,7 +98,7 @@ def extract_text_from_upload(uploaded_file):
 
 def load_job_descriptions(file_path):
     """
-    Load job descriptions from a text file with format: [job title]
+    Load job descriptions from a text file with format: Job Title: description
     
     Args:
         file_path: Path to the job descriptions file
@@ -106,30 +107,51 @@ def load_job_descriptions(file_path):
         Dictionary with job titles as keys and descriptions as values
     """
     job_descriptions = {}
-    current_title = ""
-    current_desc = []
 
     try:
+        if not os.path.exists(file_path):
+            return job_descriptions
+            
         with open(file_path, 'r', encoding='utf-8') as file:
-            for line in file:
-                line = line.strip()
-                if line.startswith('[') and line.endswith(']'):
+            content = file.read()
+            lines = content.split('\n')
+            
+            current_title = ""
+            current_desc = []
+            
+            for line in lines:
+                line_stripped = line.strip()
+                
+                # Check if this line is a job title (ends with colon and no extra description on same line)
+                if line_stripped and ':' in line_stripped and not line_stripped.startswith('#'):
+                    # Save previous job if exists
                     if current_title and current_desc:
                         job_descriptions[current_title] = ' '.join(current_desc).strip()
-                    current_title = line[1:-1].lower()
+                    
+                    # Parse new job title
+                    parts = line_stripped.split(':', 1)
+                    current_title = parts[0].strip()
                     current_desc = []
-                elif current_title:
-                    if line:  # Only add non-empty lines
-                        current_desc.append(line)
-
+                    
+                    # If there's text after the colon on the same line, add it
+                    if len(parts) > 1 and parts[1].strip():
+                        current_desc.append(parts[1].strip())
+                
+                elif line_stripped and current_title:
+                    # Add to current description
+                    current_desc.append(line_stripped)
+                elif not line_stripped and current_title and current_desc:
+                    # Empty line might separate jobs or be within description
+                    # We'll treat multiple empty lines as job separator
+                    pass
+            
+            # Don't forget the last job
             if current_title and current_desc:
                 job_descriptions[current_title] = ' '.join(current_desc).strip()
 
         return job_descriptions
     
     except FileNotFoundError:
-        st.error(f"Job descriptions file not found: {file_path}")
         return {}
     except Exception as e:
-        st.error(f"Error loading job descriptions: {str(e)}")
         return {}
