@@ -102,6 +102,7 @@ def generate_text_report(resume_text, job_description, job_title, analysis_resul
 def generate_pdf_report(resume_text, job_description, job_title, analysis_result):
     """
     Generate a PDF report of the resume analysis.
+    Uses Unicode-compatible font to support special characters.
     
     Args:
         resume_text: Extracted resume text
@@ -115,54 +116,57 @@ def generate_pdf_report(resume_text, job_description, job_title, analysis_result
     try:
         pdf = FPDF()
         pdf.add_page()
-        pdf.set_font("Helvetica", "B", 16)
+        
+        # Use DejaVu font which supports Unicode characters
+        pdf.set_font("DejaVu", "B", 16)
         pdf.cell(0, 10, "AI RESUME ANALYSIS REPORT", ln=True, align="C")
         
-        pdf.set_font("Helvetica", "", 10)
+        pdf.set_font("DejaVu", "", 10)
         pdf.cell(0, 5, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ln=True)
         pdf.cell(0, 5, f"Job Position: {job_title.upper() if job_title else 'Not Specified'}", ln=True)
         
         # Scores
-        pdf.set_font("Helvetica", "B", 12)
+        pdf.set_font("DejaVu", "B", 12)
         pdf.cell(0, 10, "MATCH SCORES", ln=True)
-        pdf.set_font("Helvetica", "", 10)
+        pdf.set_font("DejaVu", "", 10)
         pdf.cell(0, 5, f"Resume Match Score: {analysis_result.get('match_score', 'N/A')}%", ln=True)
         pdf.cell(0, 5, f"ATS Compatibility Score: {analysis_result.get('ats_score', 'N/A')}%", ln=True)
         
         # Overall Summary
-        pdf.set_font("Helvetica", "B", 12)
+        pdf.set_font("DejaVu", "B", 12)
         pdf.cell(0, 10, "OVERALL ASSESSMENT", ln=True)
-        pdf.set_font("Helvetica", "", 10)
+        pdf.set_font("DejaVu", "", 10)
         summary = analysis_result.get('overall_summary', 'No summary available')
         pdf.multi_cell(0, 5, summary)
         
         # Strengths
-        pdf.set_font("Helvetica", "B", 12)
+        pdf.set_font("DejaVu", "B", 12)
         pdf.cell(0, 10, "STRENGTHS", ln=True)
-        pdf.set_font("Helvetica", "", 10)
+        pdf.set_font("DejaVu", "", 10)
         for strength in analysis_result.get('strengths', []):
-            pdf.multi_cell(0, 5, f"• {strength}")
+            # Use safe character that won't cause issues
+            pdf.multi_cell(0, 5, f"- {strength}")
         
         # Weaknesses
-        pdf.set_font("Helvetica", "B", 12)
+        pdf.set_font("DejaVu", "B", 12)
         pdf.cell(0, 10, "WEAKNESSES", ln=True)
-        pdf.set_font("Helvetica", "", 10)
+        pdf.set_font("DejaVu", "", 10)
         for weakness in analysis_result.get('weaknesses', []):
-            pdf.multi_cell(0, 5, f"• {weakness}")
+            pdf.multi_cell(0, 5, f"- {weakness}")
         
         # Missing Skills
-        pdf.set_font("Helvetica", "B", 12)
+        pdf.set_font("DejaVu", "B", 12)
         pdf.cell(0, 10, "MISSING SKILLS", ln=True)
-        pdf.set_font("Helvetica", "", 10)
+        pdf.set_font("DejaVu", "", 10)
         for skill in analysis_result.get('missing_skills', []):
-            pdf.multi_cell(0, 5, f"• {skill}")
+            pdf.multi_cell(0, 5, f"- {skill}")
         
         # Suggestions
-        pdf.set_font("Helvetica", "B", 12)
+        pdf.set_font("DejaVu", "B", 12)
         pdf.cell(0, 10, "ACTION ITEMS", ln=True)
-        pdf.set_font("Helvetica", "", 10)
+        pdf.set_font("DejaVu", "", 10)
         for suggestion in analysis_result.get('suggestions', []):
-            pdf.multi_cell(0, 5, f"• {suggestion}")
+            pdf.multi_cell(0, 5, f"- {suggestion}")
         
         return pdf
     
